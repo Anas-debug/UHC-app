@@ -5,3 +5,5 @@ breakpoints.py
 get.py
 trim.py
 organise.py
+trim
+trim_nones.py
