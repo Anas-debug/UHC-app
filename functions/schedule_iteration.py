@@ -1,6 +1,5 @@
 from openpyxl.workbook import Workbook
 from openpyxl import load_workbook
-from fpdf import FPDF
 
 fhand = open('table.txt', 'a')
 

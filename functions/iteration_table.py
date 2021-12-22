@@ -1,6 +1,5 @@
 from openpyxl.workbook import Workbook
 from openpyxl import load_workbook
-from fpdf import FPDF
 
 wb = load_workbook("excel-files\Listes d'Exam S5 EG 2018.2019 pour Etud.xlsx") # Selecting students
 
