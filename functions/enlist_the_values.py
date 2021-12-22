@@ -8,7 +8,7 @@ ws = wb.active
 def enlist_the_values(row):
     arr = []
     column_end = len(ws['A'])
-    print(column_end)
+    #print(column_end)
     column = 0
     while(column <= column_end):
         column = column + 1
@@ -17,6 +17,7 @@ def enlist_the_values(row):
             if ws[exp].value == None :
              continue
             else:
-                print(ws[exp].value)
+                #print(ws[exp].value)
                 arr.append(ws[exp].value)
-    return arr
+    #return arr
+    print(arr)
